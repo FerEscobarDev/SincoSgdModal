@@ -1,0 +1,75 @@
+{
+  "name": "sinco-sgd-modal",
+  "private": false,
+  "version": "1.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "keywords": [
+    "react",
+    "vite",
+    "sincomodalsgd"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/FerEscobarDev/SincoModalSgd",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FerEscobarDev/SincoModalSgd"
+  },
+  "author": "Fernando Escobar",
+  "description": "Sinco Modal SGD",
+  "files": [
+    "dist"
+  ],
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "peerDependencies": {
+    "@mui/icons-material": ">=^5.14.16",
+    "@mui/material": ">=^5.14.16",
+    "formik": ">=^2.4.6",
+    "react": ">=^18.2.0",
+    "react-dom": ">=^18.2.0",
+    "yup": ">=^1.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run clean && tsc",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "clean": "rimraf dist/",
+    "push:npm": "np"
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@eslint/js": "^9.15.0",
+    "@fontsource/material-icons": "^5.1.0",
+    "@fontsource/roboto": "^5.1.0",
+    "@mui/icons-material": "^6.1.9",
+    "@mui/material": "^6.1.9",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "formik": "^2.4.6",
+    "globals": "^15.12.0",
+    "np": "^10.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rimraf": "^6.0.1",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.15.0",
+    "vite": "^6.0.1",
+    "yup": "^1.4.0"
+  }
+}
